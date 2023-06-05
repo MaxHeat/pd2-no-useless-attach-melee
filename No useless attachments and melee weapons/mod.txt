@@ -1,0 +1,18 @@
+{
+    "name" : "No useless attachments and melee weapons",
+    "description" : "Buffs some attachments to at least be on par with some new DLC attachments, also buffs melee weapons to not be useless against the Ice Pick",
+    "author" : "MaxHeat",
+    "contact" : "no",
+    "version" : "1.0",
+    "priority" : 50,
+    "hooks" : [
+		{
+			"hook_id" : "lib/tweak_data/weaponfactorytweakdata",
+			"script_path" : "weaponfactorytweakdata.lua"
+		},
+		{
+			"hook_id": "lib/tweak_data/blackmarket/meleeweaponstweakdata",
+			"script_path": "meleeweaponstweakdata.lua"
+		}
+	]
+}
