@@ -31,7 +31,10 @@ self.parts.wpn_fps_upg_ak_ns_tgp.stats.spread = 1
 self.parts.wpn_fps_upg_ak_ns_tgp.stats.recoil = 1
 
 -- Silent Death on par with Rami Suppressor
-self.parts.wpn_fps_smg_uzi_b_suppressed.stats.spread = 1
+self.parts.wpn_fps_smg_uzi_b_suppressed.stats.spread = 2
+
+-- Cobra Suppressor on par with Rami Suppressor
+self.parts.wpn_fps_smg_scorpion_b_suppressed.stats.spread = 2
 
 -- HPS Suppressor on par with Rami Suppressor
 self.parts.wpn_fps_smg_polymer_ns_silencer.stats.damage = 0
