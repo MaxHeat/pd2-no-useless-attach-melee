@@ -142,6 +142,9 @@ Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "no_useless_melee", 
 		end
 	end
 	
+	-- Don't increase the max damage of Weapon Butt
+	self.melee_weapons.weapon.stats.max_damage = self.melee_weapons.weapon.stats.min_damage
+	
 	-- Large Spoon isn't useless after unlocking Gold Version
 	self.melee_weapons.spoon.stats.min_damage = 7
 	self.melee_weapons.spoon.stats.max_damage = 45
